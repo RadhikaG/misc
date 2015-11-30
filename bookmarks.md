@@ -2,7 +2,7 @@
 
 ## Contents:
 * [Algorithms](#algorithms)
-* [Hardware/Low-level Programming](#hardware-low-level-programming)
+* [Hardware/Low-level Programming](#hardwarelow-level-programming)
 * [On Programming](#on-programming)
 * [Science and Math](#science-and-math)
 * [Startup-ish Advice](#startup-ish-advice)
