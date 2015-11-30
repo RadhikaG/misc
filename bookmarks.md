@@ -1,5 +1,19 @@
 # Ghosal's List of Awesome Bookmarks
 
+## Contents:
+* [Algorithms](#algorithms)
+* [Hardware/Low-level Programming](#hardware-low-level-programming)
+* [On Programming](#on-programming)
+* [Science and Math](#science-and-math)
+* [Startup-ish Advice](#startup-ish-advice)
+* [Resource Lists](#resource-lists)
+* [Cool Tools/Websites](#cool-tools-websites)
+* [Learning Resources](#learning-resources)
+* [Paradigm/Language-specific](#paradigm-language-specific)
+* [Literary](#literary)
+* [Finance](#finance)
+* [Misc. Cool Things](#misc-cool-things)
+
 ## Algorithms
 
 * [IARCS INOI Study Material](http://www.iarcs.org.in/inoi/online-study-material/index.php)
