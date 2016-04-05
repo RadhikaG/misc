@@ -1,6 +1,6 @@
 # Make sure you used the html2text utility provided with this file only
 # Change has been made on line 46 in html2text.py to prevent wrapping
-import html2text 
+import html2text # Long live Aaron Swartz.
 import sys
 import re
 
@@ -31,17 +31,19 @@ def process_md(md):
 
     # To understand what fixStartHeading and fixEndHeading do,
     # read the comments further below. If you don't get it,
-    # just let the below lines be as they are, they won't complain.
+    # just let the below 2 lines be as they are, they won't complain.
     fixStartHeading = 'Paradigm/Language Specific'
     fixEndHeading = 'Literary'
     # finishHeading is the subheading where you'd like the public
-    # list to be finished
+    # list to be finished. Let it be as it is if you're unsure.
     finishHeading = 'General List'
-    # Change the above 3 headings swaad-anusaar
+    # Change the above 3 headings swaad-anusaar. If you keep them as
+    # they are, you'll have to manually edit your output file a bit
+    # to snip out folders and subheadings you don't want.
 
     fixStartInd = 0
     fixEndInd = 0
-    finishInd = 0
+    finishInd = len(md) - 1
 
     for i in range(len(md)):
         if fixStartHeading in md[i]:
@@ -99,7 +101,7 @@ md = html2text.html2text(f.read())
 md = process_md(md)
 md = make_contents(md)
 # print(md)
-f1 = open("bookmarks.md", "w")
+f1 = open("bookmarks.md", "w") # change 'bookmarks.md' to a different output file if you like
 f1.write(md)
 f1.close()
 f.close()
